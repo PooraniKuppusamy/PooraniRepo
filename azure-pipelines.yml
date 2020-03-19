@@ -3,8 +3,8 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 schedules:
-- cron: "0 * * * *"
-  displayName: Hourly next functional test
+- cron: "* * * * *"
+  displayName:  next functional test
   branches:
     include:
     - master
